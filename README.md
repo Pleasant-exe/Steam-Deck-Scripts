@@ -1,4 +1,4 @@
-# steam-deck-unlock-script
+# Steam Deck unlock and pac man enable script.
 A basic script i wrote to unlock the Steam Deck after every Update.
 
 1. Download
