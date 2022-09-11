@@ -1,8 +1,30 @@
-# Steam Deck unlock and pac man enable script.
-A basic script i wrote to unlock the Steam Deck after every Update.
+# Steam Deck Scripts
 
-1. Download
-2. type cd /Downloads (or wherever you downloaded it to) then chmod +X unlock.sh
-3. Profit
+Some scripts i made so that i dont need to re write commands every update.
 
-Make sure root has a set password. 
+
+## Unlock script
+
+This script will unlock the Steam Deck root files after it has been re locked after an update.
+
+### Instructons
+
+Download and run the following commands (Make sure you have a password enabled for Root)
+
+```bash
+  cd /Downloads (Or wherever you chose to download it to)
+  chmod +x unlock.sh
+  ./unlock.sh
+```
+
+## Kvantum Manager
+ 
+By default you can install Kvantum engine in discovery but you cannot install Kvantum Manager, this script makes it easy to enable it after every update
+
+### Instructons
+
+```bash
+  cd /Downloads (Or wherever you chose to download it to)
+  chmod +x kvantum.sh
+  ./kvantum.sh
+```
